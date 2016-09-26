@@ -53,11 +53,7 @@ function ShoppingListCheckOffService () {
   };
 
   service.addToBoughtList = function(item){
-    var newItem = {
-      name: item.name,
-      quantity: item.quantity
-    };
-    service.boughtList.push(newItem);
+    service.boughtList.push(item);
   };
 
   service.popFromToBuyList = function(itemIndex){
