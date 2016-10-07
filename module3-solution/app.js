@@ -61,6 +61,7 @@ function NarrowItDownController(MenuSearchService) {
 
   menu.getMatchedMenuItems = function(){
       if (menu.searchTerm == "") {
+        resetController();
         menu.message = menu.noResultsDefaultMessage;
         return;
       }
