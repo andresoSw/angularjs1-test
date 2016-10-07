@@ -22,7 +22,7 @@ function FoundItems(){
 
 function FoundItemsDescription() {
   var ddo = {
-    template: '{{ item.short_name }},{{ item.description}}'
+    template: '{{ item.name }} : {{ item.short_name }} <p> {{ item.description}} </p>'
   };
   return ddo;
 }
