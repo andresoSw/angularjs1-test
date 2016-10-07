@@ -9,6 +9,16 @@ input[type="text"] {
   float: left;
   margin-left: 10px;
 }
+.form-container {
+  margin-bottom: 8%;
+}
+.menu-items > ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.error {
+  color: red;
+}
 .loader {
   display: none;
   margin-left: 5px;
