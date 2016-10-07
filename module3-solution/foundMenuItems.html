@@ -1,5 +1,5 @@
 <ol>
-  <li ng-repeat="item in menuItems">
+  <li ng-repeat="item in menuItems" class="menu-item">
     <found-items-description></found-items-description>
     <button ng-click="onRemove({index: $index});" class="btn btn-success">Don't want this one!</button>
   </li>

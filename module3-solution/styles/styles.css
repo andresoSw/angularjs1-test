@@ -12,6 +12,9 @@ input[type="text"] {
 .form-container {
   margin-bottom: 8%;
 }
+.menu-item {
+  margin-bottom: 25px;
+}
 .menu-items > ul{
   list-style: none;
   padding-left: 0px;
